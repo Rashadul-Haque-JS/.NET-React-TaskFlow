@@ -17,7 +17,7 @@ To set up and run the project, follow these steps:
 ```bash
 git clone https://github.com/your-username/.Net-React-TaskManagementAPI.git
 cd .Net-React-TaskManagementAPI
-
+```
 
 2. **Set Up Environment Variables:**
 Create a file named `.env.local` in the `client-app` directory. Define the necessary environment variables in this file
