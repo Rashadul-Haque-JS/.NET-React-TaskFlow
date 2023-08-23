@@ -1,12 +1,12 @@
-# .Net-React-TaskManagementAPI
+# .NET-React-TaskFlow
 
 This project serves as the backend for a Task Management API built with ASP.NET Core and React.
 
 ## About
 
-The Task Management API provides CRUD operations for managing tasks. 
-You can create, read, update, and delete tasks using this API. 
-The data is stored in an SQLite database, and the API exposes RESTful endpoints for interacting with tasks.
+The Fullstack Task Management API offers comprehensive CRUD operations for effective task management. 
+Seamlessly create, retrieve, update, and delete tasks with this powerful API. 
+Leveraging an SQLite database as its backend, the API exposes RESTful endpoints that facilitate seamless interaction with tasks.
 
 ## Getting Started
 
@@ -15,8 +15,8 @@ To set up and run the project, follow these steps:
 1. **Clone the Repository:**
 
 ```bash
-git clone https://github.com/your-username/.Net-React-TaskManagementAPI.git
-cd .Net-React-TaskManagementAPI
+git clone https://github.com/your-username/.NET-React-TaskFlow.git
+cd .NET-React-TaskFlow
 ```
 
 2. **Set Up Environment Variables:**
