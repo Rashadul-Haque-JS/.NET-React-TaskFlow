@@ -23,6 +23,8 @@ cd .Net-React-TaskManagementAPI
 Create a file named `.env.local` in the `client-app` directory. Define the necessary environment variables in this file
 
 3. **Install Dependencies and Start the React App:**
+```bash
 cd client-app
 npm install
 npm start
+```
