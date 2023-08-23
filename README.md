@@ -4,8 +4,7 @@ This project serves as the backend for a Task Management API built with ASP.NET 
 
 ## About
 
-The Fullstack Task Management API offers comprehensive CRUD operations for effective task management. 
-Seamlessly create, retrieve, update, and delete tasks with this powerful API. 
+This lightweight Fullstack Task Management API offers comprehensive CRUD operations for effective task management. 
 Leveraging an SQLite database as its backend, the API exposes RESTful endpoints that facilitate seamless interaction with tasks.
 
 ## Getting Started
