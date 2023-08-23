@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "P0bstJa0cb1YeW7Qny/+JD5+pAVsDnKzmaMP4RTaxuJ5DuMbs//uisWTQHa5gaoZZu4O8mqQSRTWIFyX5InQrA==",
+  "dgSpecHash": "0cPQAi0UKaf7xwCtYis4k4MNq9mlij1TXubpcbj73FYZ+1U9IBZeJr2KUspcbTU+H18Vyyt8Jpv/aHLw8Jg1uw==",
   "success": true,
   "projectFilePath": "/Users/rashadulhaque/Documents/projects/dotnet/TaskManagementAPI/TaskManagementAPI.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,9 @@
     "/Users/rashadulhaque/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/rashadulhaque/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/Users/rashadulhaque/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/Users/rashadulhaque/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/Users/rashadulhaque/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/Users/rashadulhaque/.nuget/packages/microsoft.extensions.configuration.environmentvariables/7.0.0/microsoft.extensions.configuration.environmentvariables.7.0.0.nupkg.sha512",
     "/Users/rashadulhaque/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/Users/rashadulhaque/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "/Users/rashadulhaque/.nuget/packages/microsoft.extensions.dependencymodel/7.0.0/microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",

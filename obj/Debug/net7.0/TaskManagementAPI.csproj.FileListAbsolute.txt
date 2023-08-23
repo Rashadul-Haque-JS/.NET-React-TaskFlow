@@ -67,3 +67,7 @@
 /Users/rashadulhaque/Documents/projects/dotnet/TaskManagementAPI/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/rashadulhaque/Documents/projects/dotnet/TaskManagementAPI/bin/Debug/net7.0/Mono.TextTemplating.dll
 /Users/rashadulhaque/Documents/projects/dotnet/TaskManagementAPI/bin/Debug/net7.0/System.CodeDom.dll
+/Users/rashadulhaque/Documents/projects/dotnet/TaskManagementAPI/bin/Debug/net7.0/client-app/package-lock.json
+/Users/rashadulhaque/Documents/projects/dotnet/TaskManagementAPI/bin/Debug/net7.0/client-app/package.json
+/Users/rashadulhaque/Documents/projects/dotnet/TaskManagementAPI/bin/Debug/net7.0/client-app/public/manifest.json
+/Users/rashadulhaque/Documents/projects/dotnet/TaskManagementAPI/bin/Debug/net7.0/client-app/tsconfig.json

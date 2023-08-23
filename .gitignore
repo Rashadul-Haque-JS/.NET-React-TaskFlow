@@ -1,5 +1,8 @@
 # Ignore Entity Framework Core database files
 *.db
 
+# Ignore all irrelevant files with specific extension
+*.txt
+
 # Ignore specific database files
 task.db
