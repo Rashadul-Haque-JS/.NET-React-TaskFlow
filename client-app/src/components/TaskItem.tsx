@@ -57,7 +57,7 @@ const TaskItem = ({ task ,setIsNotify,setIdnr,}: TaskItemProps) => {
     <div className={`bg-white p-4 shadow rounded mb-4 w-[380px] h-[300px] gap-4 relative`}>
       <div className={`${completed ? "opacity-50" : "opacity-100"}`}>
         <h2 className="text-lg font-semibold uppercase">{task.title}</h2>
-        <p className="text-gray-600">{task.dueDate}</p>
+        <p className="text-gray-600">Due on: {task.dueDate.substring(0, 10)}</p>
         <div className="w-full h-[150px] bg-gray-100 p-2 mt-3">
           <p className="mt-2">{task.description}</p>
         </div>

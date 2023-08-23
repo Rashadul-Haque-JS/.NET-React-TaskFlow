@@ -18,7 +18,7 @@ const App = () => {
   return (
     <div className="container mx-auto p-4">
       <BrowserRouter>
-        <header className=" mb-4 w-full bg-sky-600 p-4">
+        <header className=" mb-4 w-full bg-[#1abc9c] p-4">
           <h1 className="text-3xl font-semibold text-center text-white">
             Task Management App
           </h1>
