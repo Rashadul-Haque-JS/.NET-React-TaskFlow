@@ -1,0 +1,5 @@
+# Ignore Entity Framework Core database files
+*.db
+
+# Ignore specific database files
+task.db
