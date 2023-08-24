@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { Task } from '../components/TaskItem';
 import api from '../api';
 
-interface TaskFormProps {
+interface CreateTaskProps {
   onSubmit: (task: Task) => void;
 }
 
-const TaskForm: React.FC<TaskFormProps> = ({ onSubmit }) => {
+const CreateTask: React.FC<CreateTaskProps> = ({ onSubmit }) => {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
   const [dueDate, setDueDate] = useState('');
@@ -35,7 +35,10 @@ const TaskForm: React.FC<TaskFormProps> = ({ onSubmit }) => {
 
   return (
     <div className="w-full max-w-md mx-auto p-4">
-    <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+      <h1 className="text-2xl font-semibold mb-4 text-center w-full shadow-sm p-4">
+        Create Task
+      </h1>
+    <form onSubmit={handleSubmit} className="bg-secondary shadow-md rounded px-8 pt-6 pb-8 mb-4">
       <div className="mb-4">
         <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="title">
           Title
@@ -60,6 +63,7 @@ const TaskForm: React.FC<TaskFormProps> = ({ onSubmit }) => {
           id="description"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
+          minLength={10}
           maxLength={250}
         />
       </div>
@@ -76,7 +80,7 @@ const TaskForm: React.FC<TaskFormProps> = ({ onSubmit }) => {
         />
       </div>
       <button
-        className="bg-black hover:bg-[#1abc9c] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+        className="bg-tertiary hover:bg-[#1abc9c] text-primary font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
         type="submit"
       >
         Add Task
@@ -86,4 +90,4 @@ const TaskForm: React.FC<TaskFormProps> = ({ onSubmit }) => {
   );
 };
 
-export default TaskForm;
+export default CreateTask;

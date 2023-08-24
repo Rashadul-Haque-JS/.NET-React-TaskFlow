@@ -10,6 +10,7 @@ const api = {
   getTasks: () => axiosInstance.get('/tasks'),
   createTask: (task:Task) => axiosInstance.post('/tasks', task),
   updateTask: (id:number, task:Task) => axiosInstance.put(`/tasks/${id}`, task),
+  getTask: (id:number) => axiosInstance.get(`/tasks/${id}`),
   deleteTask: (id:number) => axiosInstance.delete(`/tasks/${id}`),
 };
 
