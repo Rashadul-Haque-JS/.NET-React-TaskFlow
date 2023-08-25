@@ -80,7 +80,7 @@ const CreateTask: React.FC<CreateTaskProps> = ({ onSubmit }) => {
         />
       </div>
       <button
-        className="bg-tertiary hover:bg-[#1abc9c] text-primary font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+        className="bg-tertiary text-primary font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline hover:shadow-lg"
         type="submit"
       >
         Add Task

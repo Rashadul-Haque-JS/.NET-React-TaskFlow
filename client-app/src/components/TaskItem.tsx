@@ -66,7 +66,7 @@ const TaskItem = ({ task, setIsNotify, setIdnr }: TaskItemProps) => {
           Completed
         </label>
         <Link to={`/edit-task/${task.id}`}
-          className=" text-black flex items-center cursor-pointer gap-2"
+          className=" text-black flex items-center cursor-pointer gap-2 hover:shadow-lg"
           onClick={handleNotify}
           aria-label={`Delete task "${task.title}"`}
         >
@@ -74,7 +74,7 @@ const TaskItem = ({ task, setIsNotify, setIdnr }: TaskItemProps) => {
           Edit
         </Link>
         <button
-          className=" text-black flex items-center cursor-pointer gap-2"
+          className=" text-black flex items-center cursor-pointer gap-2 hover:shadow-lg"
           onClick={handleNotify}
           aria-label={`Delete task "${task.title}"`}
         >

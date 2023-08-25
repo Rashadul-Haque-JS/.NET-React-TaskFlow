@@ -23,10 +23,10 @@ const Notification = ({ idnr, isNotify, setIsNotify }: any) => {
           Are you ok with delete!
         </div>
         <div className="flex justify-between items-center">
-          <button className="text-sm shadow-md px-2 py-1 rounded-sm cursor-pointer" onClick={()=>setIsNotify(false)}>Cancel</button>
+          <button className="text-sm shadow-md px-2 py-1 rounded-sm cursor-pointer hover:shadow-lg" onClick={()=>setIsNotify(false)}>Cancel</button>
           <button
             onClick={handleDelete}
-            className="bg-black text-white py-2 px-4 rounded hover:bg-black-400 transition duration-300 cursor-pointer"
+            className="bg-black text-white py-2 px-4 rounded hover:bg-black-400 transition duration-300 cursor-pointer hover:shadow-lg"
           >
             OK
           </button>

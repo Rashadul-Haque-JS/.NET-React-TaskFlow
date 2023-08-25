@@ -103,12 +103,21 @@ const TaskEdit = () => {
             onChange={handleInputChange}
           />
         </div>
-        <button
-          className="bg-tertiary hover:bg-[#1abc9c] text-primary font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-          type="submit"
-        >
-          Update
-        </button>
+        <div className="flex justify-between items-center">
+          <button
+            className=" hover:bg-[#1abc9c] text-primary font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline shadow hover:shadow-lg"
+            type="button"
+            onClick={() => navigate("/tasks")}
+          >
+            Cancel
+          </button>
+          <button
+            className="bg-tertiary text-primary font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline hover:shadow-lg"
+            type="submit"
+          >
+            Update
+          </button>
+        </div>
       </form>
     </div>
   );
